@@ -5,6 +5,7 @@ html {
   font-family: 'Montserrat', sans-serif;
   background-image: url(header.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .header-one{
