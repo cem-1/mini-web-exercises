@@ -78,6 +78,14 @@ body{
     border-radius: 25px;
 }
 
+.exercise2{
+    text-align: center;
+    padding: 10px;
+    padding-bottom:500px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #051f1f, #82b3b3);
+}
+
 .welcomepart{
     margin-top: 20px;
     margin-bottom: 20px;
