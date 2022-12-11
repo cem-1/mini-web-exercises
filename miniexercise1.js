@@ -7,21 +7,18 @@ var gameList = document.getElementById("gameList");
 /*Now i define my add function*/
 var adding = function(){
     var newelement = document.createElement("li");
+    newelement.style.textOverflow="ellipsis"
     /*--------------------BUTTON DEFINE ------------------*/
-    /*Defining Buttons For newelement*/
-    var donebutton = document.createElement("button");
+    /*Defining Button For newelement*/
     var deletebutton = document.createElement("button");
     /*Create Texts for Buttons*/
-    donebutton.innerHTML = "Done";
     deletebutton.innerHTML = "Delete";
     /*Appending them to newelement*/
-    newelement.appendChild(donebutton);
     newelement.appendChild(deletebutton);
     /*Styling Buttons*/
-    donebutton.classList.add("donebutton");
     deletebutton.classList.add("deletebutton");
     /*Programming buttons*/
-    donebutton.addEventListener("click", function(){
+    newelement.addEventListener("click", function(){
         newelement.classList.toggle("done");
     });
     deletebutton.addEventListener("click", function(){

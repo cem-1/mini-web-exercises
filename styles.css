@@ -37,14 +37,7 @@ body{
 .push{
     margin-left: auto;
 }
-/* NAV STYLES RESPONSIVE SETTING */
-@media only screen and (max-width: 600px){
-    .main-nav{
-        font-size: 0.8em;
-        padding: 0;
-    }
-}
-/*END OF NAVIGATION STYLES*/
+
 
 /*List Done*/
 .done {
@@ -70,3 +63,43 @@ body{
     font-weight: bold;
     margin-right: 15px;
 }
+
+/*Grid Setup*/
+
+.grid-container{
+    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.exercise{
+    background-color: rgba(5, 31, 31, 0.185);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.welcomepart{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(5, 31, 31, 0.473);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#exerciseNote{
+    font-style: italic;
+}
+
+/* NAV STYLES RESPONSIVE SETTING */
+@media only screen and (max-width: 600px){
+    .main-nav{
+        font-size: 0.8em;
+        padding: 0;
+    }
+    .grid-container{
+        display: grid;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+/*END OF NAVIGATION STYLES*/
