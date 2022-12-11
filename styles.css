@@ -45,3 +45,28 @@ body{
     }
 }
 /*END OF NAVIGATION STYLES*/
+
+/*List Done*/
+.done {
+    text-decoration: line-through;
+}
+
+.donebutton{
+    background-color: rgb(3, 121, 3);
+    margin: 1px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.deletebutton{
+    background-color: rgb(187, 9, 9);
+    margin: 1px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+}
