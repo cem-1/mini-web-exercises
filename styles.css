@@ -1,0 +1,47 @@
+body{
+    margin:auto 0;
+    font-family: "Open Sans";
+    background-color: white;
+}
+
+/* COLORS
+#EAECF3
+#C3C9DC
+#959FBE
+#69779F
+#425282
+*/
+
+/*NAVIGATION STYLES*/
+.main-nav{
+    display:flex;
+    list-style: none;
+    font-size: 24;
+    font-weight: bold;
+    margin: 0;
+    background-image: linear-gradient(rgb(5, 31, 31), rgb(12, 75, 75));
+}
+.headerList{
+    padding: 20px;
+    transition: 1s;
+}
+.headerList:hover{
+    padding: 20px;
+    transition: 4;
+    background-color: rgb(29, 128, 128) ;
+}
+.headerLink{
+    color: #f5f5f6;
+    text-decoration: none;
+}
+.push{
+    margin-left: auto;
+}
+/* NAV STYLES RESPONSIVE SETTING */
+@media only screen and (max-width: 600px){
+    .main-nav{
+        font-size: 0.8em;
+        padding: 0;
+    }
+}
+/*END OF NAVIGATION STYLES*/
