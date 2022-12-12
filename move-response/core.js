@@ -1,3 +1,4 @@
+/*SELECTING HTML ITEMS*/
 var up = document.querySelector("#up");
 var rg = document.querySelector("#rg");
 var lf = document.querySelector("#lf");
@@ -6,6 +7,7 @@ var exe = document.querySelector("#exe");
 var loglist = document.querySelector("#log-list");
 var cacheMove;
 
+/*DEFINING MOVE TYPES*/
 function upMove(){
     var newelement = document.createElement("li");
     newelement.appendChild(document.createTextNode("Moved Up!"));
@@ -30,6 +32,7 @@ function downMove(){
     loglist.appendChild(newelement);
 }
 
+/*DEFINE EXECUTE FUNCTION WILL LOG THE MOVE ON BROWSER*/
 function execute(cacheMove){
     switch(cacheMove){
         case "up": 
@@ -49,6 +52,7 @@ function execute(cacheMove){
     }
 }
 
+/*EVENT LISTENER FOR MOVE BUTTONS*/
 up.addEventListener("click",function(){
     cacheMove = "up";
 });
@@ -62,6 +66,7 @@ dw.addEventListener("click",function(){
     cacheMove = "down";
 });
 
+/*EVENT LISTENER FOR EXECUTE BUTTON*/
 exe.addEventListener("click",function(){
     execute(cacheMove);
     cacheMove = "";
