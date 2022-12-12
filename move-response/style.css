@@ -1,0 +1,13 @@
+#up{
+margin-left:35px;
+margin-bottom:5px;
+}
+
+#exe{
+    margin-top:5px;
+    width: 115px ;
+    border:none;
+    background-color: rgb(94, 6, 6);
+    color:white;
+    border-radius: 10px;
+    }

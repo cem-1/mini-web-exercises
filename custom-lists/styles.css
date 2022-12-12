@@ -1,0 +1,123 @@
+body{
+    margin:auto 0;
+    font-family: "Open Sans";
+    background-color: white;
+}
+
+/* COLORS
+#EAECF3
+#C3C9DC
+#959FBE
+#69779F
+#425282
+*/
+
+/*NAVIGATION STYLES*/
+.main-nav{
+    display:flex;
+    list-style: none;
+    font-size: 24;
+    font-weight: bold;
+    margin: 0;
+    background-image: linear-gradient(rgb(5, 31, 31), rgb(12, 75, 75));
+}
+.headerList{
+    padding: 20px;
+    transition: 1s;
+}
+.headerList:hover{
+    padding: 20px;
+    transition: 4;
+    background-color: rgb(29, 128, 128) ;
+}
+.headerLink{
+    color: #f5f5f6;
+    text-decoration: none;
+}
+.push{
+    margin-left: auto;
+}
+
+
+/*List Done*/
+.done {
+    text-decoration: line-through;
+}
+
+.donebutton{
+    background-color: rgb(3, 121, 3);
+    margin: 1px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.deletebutton{
+    background-color: rgb(187, 9, 9);
+    margin: 1px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+/*Grid Setup*/
+
+.grid-container{
+    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.exercise{
+    background-color: rgba(5, 31, 31, 0.185);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.exercise2{
+    text-align: center;
+    padding: 10px;
+    padding-bottom:500px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #051f1f, #82b3b3);
+}
+
+.welcomepart{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(5, 31, 31, 0.473);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#exerciseNote{
+    font-style: italic;
+}
+
+/* NAV STYLES RESPONSIVE SETTING */
+@media only screen and (max-width: 600px){
+    .main-nav{
+        font-size: 0.8em;
+        padding: 0;
+    }
+    .grid-container{
+        display: grid;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+/*END OF NAVIGATION STYLES*/
+
+#randombutton{
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
