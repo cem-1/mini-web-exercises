@@ -48,3 +48,5 @@ color2.addEventListener("input", setGradient);
 button.addEventListener("click", randomize);
 
 /* test */
+
+/* test2 */
